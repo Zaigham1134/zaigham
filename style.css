@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.main{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin:-5px auto;
+
+}
+.main ul{
+    list-style: none;
+}
+.main ul li{
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+ .main ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+ } 
+ .main ul li ul li{
+    background-color: black;
+    display: none;
+ }
+ 
+ .main ul li:hover ul li{
+    display:block ;
+ }
+ .main ul li a:hover{
+    background-color:blue;
+    color: black;
+}  
+.card{
+    float: left;
+}
+.contact{
+    color: beige;
+}
+.class{
+    text-align: center;
+    color: lightsalmon;
+    float: right;
+}
+.carousel-item {
+    border-image: auto;
+}
